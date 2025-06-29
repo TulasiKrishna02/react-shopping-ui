@@ -10,6 +10,8 @@ import { Gents,Ladies } from '../data';
 import WomanCollection from '../components/WomanCollection'
 
 const MainPage = () => {
+ const [gentsFashon] = useState(Gents);
+const [ladiesFashon] = useState(Ladies);
  
   console.log(Gents);
   return (
