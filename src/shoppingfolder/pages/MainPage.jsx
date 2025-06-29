@@ -10,8 +10,7 @@ import { Gents,Ladies } from '../data';
 import WomanCollection from '../components/WomanCollection'
 
 const MainPage = () => {
-  const [gentsFashon,setGentsFashon] = useState(Gents)
-  const [ladiesFashon,setLadiesFashon] = useState(Ladies)
+ 
   console.log(Gents);
   return (
     <div>
